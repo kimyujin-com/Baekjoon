@@ -139,7 +139,7 @@ int main()
 		scanf("%d %d", &start, &end);
 		insert_edge(list, start, end);
 	}
-	for (i = 0; i <= N; i++)
+	for (i = 1; i <= N; i++)
 		visited[i] = 0;
 	printf("%d\n", dfs_interactive(list, 1) - 1);
 	free(list);
