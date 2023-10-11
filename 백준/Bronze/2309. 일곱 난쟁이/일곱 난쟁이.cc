@@ -1,9 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <stdlib.h>
 #define SIZE 7
+
 int A[SIZE + 1];
-int B[SIZE + 1] = { 0, };
+int B[SIZE + 1];
 int C[101];
 
 void initArray(int array[], int size)
