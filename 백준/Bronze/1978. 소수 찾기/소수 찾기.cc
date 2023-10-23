@@ -15,7 +15,7 @@ void check_prime_num()
 		if (is_prime[i] == 0)
 			continue;
 		else
-			for (j = 2 * i; j < MAX; j += i)
+			for (j = i * i; j < MAX; j += i)
 				is_prime[j] = 0;
 }
 
